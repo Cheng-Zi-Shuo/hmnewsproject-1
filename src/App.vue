@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     app-----
-    <van-button type="default">默认按钮</van-button>
+    <div class="css"></div>
   </div>
 </template>
 
@@ -11,6 +11,10 @@ export default {
 }
 </script>
 
-<style lang="sass">
-
+<style lang="less" scope>
+.css {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
 </style>
